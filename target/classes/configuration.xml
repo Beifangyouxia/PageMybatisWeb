@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 配置文件 -->
+<configuration>
+    <!--configuration" 的内容必须匹配 "(properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,objectWrapperFactory?,reflectorFactory?,plugins?,environments?,databaseIdProvider?,mappers?-->
+    <!-- 导入外部参数 -->
+    <properties resource="jdbc.properties"/>
+
+
+    <!-- 定义别名 -->
+    <typeAliases>
+        <!--              类型                       别名 -->
+        <!--<typeAlias type="com.scc.domain.User" alias="User"/>-->
+        <!--<typeAlias type="com.scc.domain.Page" alias="Page"/>-->
+        <!-- 定义mapper中类型的缺省包 -->
+        <package name="com.scc.domain"/>
+    </typeAliases>
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+    <environments default="development">
+        <environment id="development">
+            <!-- 事务类型 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- mybatis提供的连接池 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <!-- 【&amp;】等价于【&】 -->
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.user}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--<mapper resource="com/scc/dao/UserDAO.xml"></mapper>-->
+        <!-- 在com.scc.dao包中的所Mapper文件，都被加载
+             此种Mappeer文件，必须和DAO接口在同一个包下，且同名
+         -->
+        <package name="com.scc.dao"/>
+    </mappers>
+
+</configuration>
