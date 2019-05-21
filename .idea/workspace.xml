@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94419584-9a65-464d-bc53-8e738ea033e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hello.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hello.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hello.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -242,14 +241,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageMybatisWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageMybatisWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PageMybatisWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -646,7 +637,7 @@
       <workItem from="1558358351163" duration="1018000" />
       <workItem from="1558364805882" duration="308000" />
       <workItem from="1558396162335" duration="4360000" />
-      <workItem from="1558402777716" duration="2927000" />
+      <workItem from="1558402777716" duration="3022000" />
     </task>
     <task id="LOCAL-00001" summary="欧了">
       <created>1558398355544</created>
@@ -712,7 +703,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77682000" />
+    <option name="totallyTimeSpent" value="77777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,7 +733,7 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.41156462" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.72231686" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.72231686" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32993197" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32993197" />
@@ -1300,8 +1291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hello.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
