@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94419584-9a65-464d-bc53-8e738ea033e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hello.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hello.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hello2.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,11 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hello.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hello2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -165,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/myTest.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hello.html" />
         <option value="$PROJECT_DIR$/src/main/resources/hello.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hello2.xml" />
       </list>
     </option>
   </component>
@@ -276,7 +286,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558400241214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558411323229" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -637,7 +647,7 @@
       <workItem from="1558358351163" duration="1018000" />
       <workItem from="1558364805882" duration="308000" />
       <workItem from="1558396162335" duration="4360000" />
-      <workItem from="1558402777716" duration="3022000" />
+      <workItem from="1558402777716" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="欧了">
       <created>1558398355544</created>
@@ -703,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77777000" />
+    <option name="totallyTimeSpent" value="77960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +728,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.33431086" visible="true" weight="0.27382752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.33431086" visible="true" weight="0.27382752" />
       <window_info id="Structure" order="1" sideWeight="0.74489796" side_tool="true" weight="0.2549168" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -853,13 +863,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scc/dao/StudentDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1292,7 +1295,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/hello.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hello2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
